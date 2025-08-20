@@ -136,16 +136,10 @@ Train GNN on custom datasets:
 miner.train_bug_model(labeled_data, epochs=50)
 ```
 
-### Roadmap
-- v0.2: Real-time repo monitoring via GitHub webhooks.
-- v0.3: Multi-repo analysis and benchmarking.
-- v1.0: Integration with VS Code extension.
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
 ## 📄 License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
 
 
 

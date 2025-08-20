@@ -147,16 +147,5 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-## 🙌 Acknowledgments
-
-- Built with ❤️ by [Your Name](https://github.com/yourusername).
-- Powered by NetworkX, PyTorch Geometric, spaCy, and more.
-- Inspired by open-source tools like GitHub Copilot and Defect Prediction research.
-
-Star the repo if you find it useful! ⭐
-
----
-
-*Last updated: August 20, 2025*
 
 

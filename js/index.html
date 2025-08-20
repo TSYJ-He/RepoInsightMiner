@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RepoInsightMiner Standalone Viz Demo</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="viz.js"></script>
+</head>
+<body>
+    <h1>Standalone Visualization Demo</h1>
+    <div id="contributor-graph"></div>
+    <div id="bug-heatmap"></div>
+
+    <script type="module">
+        import { renderForceGraph, renderBugHeatmap } from './viz.js';
+
+        // Sample data (replace with actual JSON from backend)
+        const sampleGraphData = {
+            nodes: [
+                {id: "author1", group: 1},
+                {id: "commit1", group: 2},
+                {id: "file1.py", group: 3}
+            ],
+            links: [
+                {source: "author1", target: "commit1", value: 1},
+                {source: "commit1", target: "file1.py", value: 2}
+            ]
+        };
+
+        const sampleBugData = [
+            {file: "file1.py", risk: 0.7},
+            {file: "file2.py", risk: 0.3}
+        ];
+
+        renderForceGraph("#contributor-graph", sampleGraphData, 600, 400);
+        renderBugHeatmap("#bug-heatmap", sampleBugData, 600, 200);
+    </script>
+</body>
+</html>

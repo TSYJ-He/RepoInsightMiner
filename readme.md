@@ -1,11 +1,10 @@
 # RepoInsightMiner
 
-![RepoInsightMiner Banner](https://via.placeholder.com/1200x300?text=RepoInsightMiner%20-%20AI-Powered%20Repo%20Analyzer) <!-- Replace with actual banner image -->
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
-[![Build Status](https://travis-ci.com/yourusername/RepoInsightMiner.svg?branch=main)](https://travis-ci.com/yourusername/RepoInsightMiner) <!-- Customize with actual CI -->
-[![Downloads](https://pepy.tech/badge/repoinsightminer)](https://pepy.tech/project/repoinsightminer)
+
 [![Stars](https://img.shields.io/github/stars/TSYJ-He/RepoInsightMiner?style=social)](https://github.com/TSYJ-He/RepoInsightMiner)
 
 **RepoInsightMiner** is an AI-powered, open-source tool that dives deep into GitHub repository histories to uncover actionable insights. Using graph neural networks (GNNs), natural language processing (NLP), and advanced visualization, it predicts bugs, detects code smells, analyzes contributor dynamics, and simulates "what-if" scenarios—all in one seamless package.
@@ -159,4 +158,5 @@ Star the repo if you find it useful! ⭐
 ---
 
 *Last updated: August 20, 2025*
+
 

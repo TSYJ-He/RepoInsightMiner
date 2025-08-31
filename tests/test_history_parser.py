@@ -3,7 +3,6 @@ import os
 import networkx as nx
 from src.graph_builder import GraphBuilder
 from src.utils import load_json
-
 @pytest.fixture
 def sample_history():
     # Load or mock history data
